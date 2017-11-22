@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     };
 
     String[] descriptionitem = {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"
+            "Hitung Luas dan Keliling Persegi",
+            "Hitung Lingkaran",
+            "Hitung Segitiga",
+            "Hitung Persegi Panjang",
+            "Hitung Trapesium"
     };
 
     @Override

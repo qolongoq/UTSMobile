@@ -45,6 +45,7 @@ public class DetailActivity extends AppCompatActivity {
             int hasil = 4 * nilaiA;
             intent.putExtra("hasil",""+hasil);
             startActivity(intent);
+
         }catch (Exception ex){
 
         }

@@ -9,6 +9,12 @@
     tools:context="com.example.arka.custom.DetailActivity"
     android:weightSum="1">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Persegi panjang"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

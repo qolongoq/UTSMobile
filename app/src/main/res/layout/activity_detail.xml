@@ -25,14 +25,12 @@
         />
 
     <Button
-        android:id="@+id/luas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Luas Persegi"
         android:onClick="tombolHitung1"
         />
     <Button
-        android:id="@+id/keliling"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Keliling Persegi"

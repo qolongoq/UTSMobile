@@ -1,7 +1,5 @@
 package com.example.arka.custom;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;

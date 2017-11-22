@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import android.view.MenuItem;
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -23,13 +22,6 @@ public class DetailActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if(item.getItemId()== android.R.id.home){
-            onBackPressed();
-        }
-        return super.onOptionsItemSelected(item);
-    }
 
     public void tombolHitung1(View view) {
         try{

@@ -29,11 +29,11 @@
         android:layout_height="wrap_content"
         android:text="Luas Persegi"
         android:onClick="tombolHitung1"
-        />
+        tools:ignore="OnClick" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Keliling Persegi"
         android:onClick="tombolHitung2"
-        />
+        tools:ignore="OnClick" />
 </LinearLayout>

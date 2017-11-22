@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     };
 
     Integer[] imgid = {
-            R.mipmap.ic_launcher_round,
+            R.mipmap.iconpersegi,
             R.mipmap.ic_launcher_round,
             R.mipmap.ic_launcher_round,
             R.mipmap.ic_launcher_round,

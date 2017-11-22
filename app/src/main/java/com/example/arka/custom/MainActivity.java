@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     Integer[] imgid = {
             R.mipmap.iconpersegi,
-            R.mipmap.ic_launcher_round,
-            R.mipmap.ic_launcher_round,
-            R.mipmap.ic_launcher_round,
-            R.mipmap.ic_launcher_round
+            R.mipmap.lingkaran,
+            R.mipmap.segitiga,
+            R.mipmap.persegipanjang,
+            R.mipmap.trapesium
     };
 
     String[] descriptionitem = {

@@ -11,7 +11,7 @@ import android.view.MenuItem;
 
 public class DetailActivity extends AppCompatActivity {
 
-    EditText panjang, lebar;
+    EditText sisi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,18 +20,30 @@ public class DetailActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        panjang = (EditText) findViewById(R.id.panjang);
-        lebar = (EditText) findViewById(R.id.lebar);
+        sisi = (EditText) findViewById(R.id.sisi);
+
 
     }
-    public void tombolHitung(View view){
+    public void tombolHitung1(View view){
         try{
             Intent intent = new Intent(DetailActivity.this, HasilActivity.class);
             int nilaiA = Integer.parseInt(panjang.getText().toString());
-            int nilaiB = Integer.parseInt(lebar.getText().toString());
-            int hasil = nilaiA * nilaiB;
+            int hasil = nilaiA * nilaiA;
             intent.putExtra("hasil",""+hasil);
-            //Toast.makeText(this, ""+hasil, Toast.LENGTH_SHORT).show();
+            startActivity(intent);
+
+        }catch (Exception ex){
+
+        }
+
+    }
+
+    public void tombolHitung2(View view){
+        try{
+            Intent intent = new Intent(DetailActivity.this, HasilActivity.class);
+            int nilaiA = Integer.parseInt(panjang.getText().toString());
+            int hasil = 4 * nilaiA;
+            intent.putExtra("hasil",""+hasil);
             startActivity(intent);
 
         }catch (Exception ex){
